@@ -8,11 +8,8 @@ const Shop = () => {
     const action = bindActionCreators(actionCreators, dispatch)
 
     const handleUsername = (e) => {
-        setTimeout(()=>{
-            let username = e.target.value;
-            console.log(username)
-            action.setUsername(username)
-        },100)
+        let username = e.target.value;
+        action.setUsername(username)
     }
 
     return(
