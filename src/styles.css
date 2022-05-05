@@ -1,0 +1,13 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+/* //Shop */
+.Form-cover{
+  border: 1px solid #eee;
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 1px 20px 1px 2px rgba(0, 0 , 0, 0.2);
+}
